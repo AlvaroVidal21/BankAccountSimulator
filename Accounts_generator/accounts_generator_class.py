@@ -1,6 +1,6 @@
 import random
 from distritos import DISTRITOS_STATUS as ds
-from names import NAMES as nm
+# from names import NAMES as nm
 
 
 
@@ -163,28 +163,3 @@ def generator(names: list) -> list:
     
 
         
-
-
-
-
-def doing():
-    lista = generator(nm)
-
-    for i in lista:
-        print(f"""
-        Nombre: {i.name}
-        Distrito: {i._district}
-        Estatus del distrito: {i._district_status}
-        Edad: {i._age}
-        Saldo: {i.balance}
-        Deuda {i.debt}
-        \n
-        """)
-
-
-
-
-if __name__ == '__main__':
-    doing()
-    
-
