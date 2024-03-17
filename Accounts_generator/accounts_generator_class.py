@@ -1,6 +1,5 @@
 import random
-from distritos import DISTRITOS_STATUS as ds
-# from names import NAMES as nm
+from Accounts_generator.distritos_data import distritos_lista as dl
 
 
 
@@ -16,7 +15,7 @@ class AccountBank:
 
 
     def get_district(self):
-        random_district = random.choice(ds)
+        random_district = random.choice(dl)
         self._district = random_district[0]
         self._district_status = random_district[1]
 

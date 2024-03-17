@@ -1,5 +1,5 @@
 
-DISTRITOS_STATUS = [
+distritos_lista = [
     ("San Isidro", "A"), 
     ("Miraflores", "A"), 
     ("Jesús María", "B"), 

@@ -1,9 +1,4 @@
-# exportamos el generador de cuentas
-from ..Accounts_generator.accounts_generator_class import generator  # Genera una lista (50) de objetos de la clase Account
-# from names import NAMES as nm
-from ..Accounts_generator.names import NAMES as nm
 
-account_list = generator(nm)
 
 
 def export_csv_generator(account_list: list) -> None:
@@ -19,6 +14,3 @@ def export_csv_generator(account_list: list) -> None:
 
 
 
-if __name__ == '__main__':
-    export_csv_generator(account_list)
-    print("Archivo 'accounts.csv' creado con éxito")
