@@ -131,15 +131,15 @@ class AccountBank:
         r_ = random.random()      
 
         if r_ <= 0.85:
-            self.__debt = value * (self.__balance * (random.randint(1, 50)/ 100))
+            self.__debt = round(value * (self.__balance * (random.randint(1, 50)/ 100)), 2)
             self._status_debt = "normal"
 
         elif r_ > 0.85 and r_ <= 0.95:
-            self.__debt = value * (self.__balance * (random.randint(51, 65)/ 100))
+            self.__debt = round(value * (self.__balance * (random.randint(51, 65)/ 100)), 2)
             self._status_debt = "peligro"
 
         else:
-            self.__debt = value * (self.__balance * (random.randint(66, 85)/ 100))
+            self.__debt = round(value * (self.__balance * (random.randint(66, 85)/ 100)), 2)
             self._status_debt = "muy peligroso"
 
 def generator(names: list) -> list:
