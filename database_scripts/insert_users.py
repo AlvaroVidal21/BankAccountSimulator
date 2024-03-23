@@ -23,11 +23,13 @@ def create_user_table(db):
             id_user INTEGER PRIMARY KEY AUTOINCREMENT,
             name_user TEXT NOT NULL,
             age_user INTEGER NOT NULL,
-            district_name INTEGER NOT NULL,
+            district_name_id INTEGER NOT NULL,
             status_district TEXT NOT NULL,
             balance_user REAL NOT NULL,
             debt_user REAL NOT NULL,
-            status_debt TEXT NOT NULL
+            status_debt TEXT NOT NULL,
+
+            FOREIGN KEY (district_name_id) REFERENCES districts(id_district)
         )
     """
 
@@ -45,7 +47,7 @@ def insert_users(db, csv):
 
     if rows == 0:
         query = """
-            INSERT INTO users (name_user, age_user, district_name, status_district, balance_user, debt_user, status_debt) VALUES (?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO users (name_user, age_user, district_name_id, status_district, balance_user, debt_user, status_debt) VALUES (?, ?, ?, ?, ?, ?, ?)
         """
 
         with open(csv, "r") as file:
