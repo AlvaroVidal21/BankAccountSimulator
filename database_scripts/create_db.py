@@ -11,7 +11,7 @@ def create_db(db):
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS districts (
             id_district INTEGER PRIMARY KEY AUTOINCREMENT,
-            name_district TEXT NOT NULL,
+            name_district TEXT NOT NULL UNIQUE,
             status_district TEXT NOT NULL     
         )
         """)
@@ -19,6 +19,7 @@ def create_db(db):
 
     conn.commit()
     conn.close()
+
 
 def insert_districts(db, districts_list:  list):
     # Conexión a la base de datos (suponiendo que ya tengas una base de datos SQLite creada)
@@ -30,7 +31,10 @@ def insert_districts(db, districts_list:  list):
     '''
 
     for d in districts_list:
-        cursor.execute(query, (d[0], d[1]))
+        try: 
+            cursor.execute(query, (d[0], d[1]))
+        except sqlite3.IntegrityError:
+            pass
 
     conexion.commit()
     conexion.close()
