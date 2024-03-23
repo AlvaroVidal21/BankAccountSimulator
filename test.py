@@ -1,27 +1,23 @@
 import random
 
-
-
-
-
-# def doing():
-#     with open("accounts.csv", "r") as file:
-#         lines = 0
-#         for line in file:
-#             lines += 1
-#             if lines == 1:
-#                 continue
-#             else:
-#                 print(line)
+dictionary_districts = {
+    "San Isidro": 1,
+    "Miraflores": 2,
+    "Jesus Maria": 3,
+    "Lince": 4,
+    "Chosica": 5,
+    "Chaclacayo": 6,
+    "San Juan de Lurigancho": 7,
+    "Cieneguilla": 8,
+}
 
 def doing():
-    with open("accounts.csv", "r") as file:
-        lines = 0
-        for line in file:
-            lines += 1
-            if lines == 1:
-                continue
-            else:
+    r = dictionary_districts["San Isidro"]
+    print(r)
+    print("\n")
+    a = dictionary_districts.get("San Isidro")
+    print(a)
+   
                 
 
 

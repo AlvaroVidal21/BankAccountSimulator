@@ -3,6 +3,7 @@ from Accounts_generator.accounts_generator_class import generator
 from Csv_exporter.csv_exporter import export_csv_generator as csv_exporter_func
 from Accounts_generator.distritos_data import distritos_lista as dl
 from database_scripts.create_db import create_db, insert_districts
+from database_scripts.insert_users import create_user_table, insert_users
 
 import os
 import pandas as pd
@@ -30,6 +31,8 @@ if __name__ == '__main__':
 
     create_db(db_ruta)
     insert_districts(db_ruta, dl)
+    create_user_table(db_ruta)
+    insert_users(db_ruta, file_csv)
     
     
 
