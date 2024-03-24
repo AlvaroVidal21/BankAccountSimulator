@@ -1,80 +1,80 @@
-id, name, age, district, status_district, balance, debt, status_debt
-1, Harry Potter, 19, San Juan de Lurigancho, D, 24, 9.6, normal
-2, Hermione Granger, 20, Chosica, C, 242, 2.42, normal
-3, Ron Weasley, 20, San Isidro, A, 1740, 243.6, normal
-4, Albus Dumbledore, 45, Miraflores, A, 15086, 7844.72, peligro
-5, Severus Snape, 35, Chaclacayo, C, 517, 15.51, normal
-6, Lord Voldemort, 21, Jesus Maria, B, 3185, 31.85, normal
-7, Draco Malfoy, 21, San Juan de Lurigancho, D, 22, 7.04, normal
-8, Luna Lovegood, 27, San Isidro, A, 2168, 693.76, normal
-9, Rubeus Hagrid, 20, Chosica, C, 118, 24.78, normal
-10, Sirius Black, 21, Jesus Maria, B, 1300, 390.0, normal
-11, Bellatrix Lestrange, 47, Cieneguilla, D, 495, 39.6, normal
-12, Lucius Malfoy, 36, San Isidro, A, 5451, 1471.77, normal
-13, Ginny Weasley, 41, Lince, B, 4622, 2311.0, normal
-14, Neville Longbottom, 29, Jesus Maria, B, 1284, 64.2, normal
-15, Cho Chang, 39, Jesus Maria, B, 4708, 329.56, normal
-16, Cedric Diggory, 24, Chosica, C, 161, 28.98, normal
-17, Remus Lupin, 26, Lince, B, 1294, 103.52, normal
-18, Nymphadora Tonks, 25, San Isidro, A, 1113, 333.9, normal
-19, Molly Weasley, 32, Jesus Maria, B, 3106, 310.6, normal
-20, Arthur Weasley, 45, San Isidro, A, 7162, 2363.46, normal
-21, Fred Weasley, 49, San Isidro, A, 21528, 2798.64, normal
-22, George Weasley, 37, San Isidro, A, 7758, 4887.54, peligro
-23, Percy Weasley, 47, San Juan de Lurigancho, D, 423, 198.81, normal
-24, Charlie Weasley, 48, Cieneguilla, D, 413, 90.86, normal
-25, Bill Weasley, 19, Cieneguilla, D, 28, 7.28, normal
-26, Dean Thomas, 22, Chosica, C, 222, 64.38, normal
-27, Seamus Finnigan, 31, Chaclacayo, C, 808, 88.88, normal
-28, Parvati Patil, 50, Cieneguilla, D, 335, 204.35, peligro
-29, Lavender Brown, 28, Chosica, C, 148, 7.4, normal
-30, Rick Sanchez, 48, Jesus Maria, B, 11007, 6494.13, peligro
-31, Morty Smith, 34, San Juan de Lurigancho, D, 95, 49.4, peligro
-32, Summer Smith, 21, Miraflores, A, 1246, 560.7, normal
-33, Beth Smith, 40, Lince, B, 1906, 190.6, normal
-34, Jerry Smith, 39, Miraflores, A, 1333, 506.54, normal
-35, Mr. Poopybutthole, 29, Miraflores, A, 2616, 1988.16, muy peligroso
-36, Birdperson, 42, Miraflores, A, 9418, 2354.5, normal
-37, Squanchy, 21, Chosica, C, 966, 367.08, normal
-38, Krombopulos Michael, 23, San Juan de Lurigancho, D, 14, 5.74, normal
-39, Abradolf Lincoler, 23, San Isidro, A, 3144, 1131.84, normal
-40, Unity, 38, San Juan de Lurigancho, D, 68, 19.04, normal
-41, Evil Morty, 46, San Isidro, A, 16246, 2436.9, normal
-42, Pickle Rick, 22, San Juan de Lurigancho, D, 30, 13.2, normal
-43, Beth Clone, 49, Cieneguilla, D, 233, 44.27, normal
-44, Summer Clone, 40, San Isidro, A, 567, 413.91, muy peligroso
-45, Morty Clone, 34, Jesus Maria, B, 3942, 2719.98, muy peligroso
-46, Planetina, 33, Chosica, C, 466, 191.06, normal
-47, Tammy Guetermann, 41, Lince, B, 5985, 778.05, normal
-48, Jaguar, 22, Chaclacayo, C, 271, 127.37, normal
-49, Noob-Noob, 32, Lince, B, 3891, 817.11, normal
-50, Daenerys Targaryen, 20, San Juan de Lurigancho, D, 14, 5.18, normal
-51, Jon Snow, 24, San Isidro, A, 2842, 227.36, normal
-52, Tyrion Lannister, 50, San Isidro, A, 13136, 2495.84, normal
-53, Cersei Lannister, 33, San Juan de Lurigancho, D, 72, 10.8, normal
-54, Arya Stark, 32, San Isidro, A, 7903, 4820.83, peligro
-55, Sansa Stark, 21, San Juan de Lurigancho, D, 10, 0.9, normal
-56, Bran Stark, 18, Miraflores, A, 1007, 352.45, normal
-57, Jaime Lannister, 50, San Juan de Lurigancho, D, 375, 277.5, muy peligroso
-58, Brienne of Tarth, 24, Jesus Maria, B, 1373, 82.38, normal
-59, Samwell Tarly, 21, San Isidro, A, 1118, 547.82, normal
-60, Jorah Mormont, 41, Lince, B, 1245, 37.35, normal
-61, The Hound, 34, Chaclacayo, C, 314, 72.22, normal
-62, Petyr Baelish, 25, San Juan de Lurigancho, D, 27, 1.89, normal
-63, Varys, 22, Chaclacayo, C, 263, 131.5, normal
-64, Littlefinger, 29, Lince, B, 340, 166.6, normal
-65, Olenna Tyrell, 38, San Juan de Lurigancho, D, 66, 4.62, normal
-66, Margaery Tyrell, 45, Chosica, C, 2188, 393.84, normal
-67, Loras Tyrell, 27, Chosica, C, 202, 92.92, normal
-68, Tormund Giantsbane, 26, Cieneguilla, D, 16, 4.48, normal
-69, Melisandre, 41, San Isidro, A, 15271, 763.55, normal
-70, Davos Seaworth, 45, San Isidro, A, 7488, 2695.68, normal
-71, Stannis Baratheon, 31, Lince, B, 2155, 538.75, normal
-72, Renly Baratheon, 28, Chaclacayo, C, 210, 170.1, muy peligroso
-73, Robert Baratheon, 23, Cieneguilla, D, 24, 6.48, normal
-74, Catelyn Stark, 42, Lince, B, 4804, 1249.04, normal
-75, Robb Stark, 33, Chosica, C, 514, 210.74, normal
-76, Theon Greyjoy, 33, Chosica, C, 815, 220.05, normal
-77, Yara Greyjoy, 35, Chosica, C, 179, 130.67, muy peligroso
-78, Ramsay Bolton, 39, San Isidro, A, 6904, 3866.24, peligro
-79, Roose Bolton, 18, San Juan de Lurigancho, D, 10, 0.2, normal
+id,name,age,district,status_district,balance,debt,status_debt
+1,Harry Potter,18,Chaclacayo,C,202, 121.2, peligro
+2,Hermione Granger,40,Jesus Maria,B,4293, 2103.57, normal
+3,Ron Weasley,41,Chosica,C,438, 122.64, normal
+4,Albus Dumbledore,20,San Isidro,A,4140, 1904.4, normal
+5,Severus Snape,44,Lince,B,4824, 578.88, normal
+6,Lord Voldemort,45,Miraflores,A,14914, 8799.26, peligro
+7,Draco Malfoy,27,Cieneguilla,D,19, 4.37, normal
+8,Luna Lovegood,39,San Juan de Lurigancho,D,56, 25.76, normal
+9,Rubeus Hagrid,30,San Juan de Lurigancho,D,70, 45.5, peligro
+10,Sirius Black,36,Chosica,C,115, 49.45, normal
+11,Bellatrix Lestrange,48,Chaclacayo,C,2491, 448.38, normal
+12,Lucius Malfoy,45,Miraflores,A,19152, 8235.36, normal
+13,Ginny Weasley,23,San Isidro,A,6745, 2293.3, normal
+14,Neville Longbottom,18,Lince,B,3042, 1521.0, normal
+15,Cho Chang,44,San Juan de Lurigancho,D,40, 10.4, normal
+16,Cedric Diggory,50,Jesus Maria,B,9864, 2367.36, normal
+17,Remus Lupin,36,San Juan de Lurigancho,D,83, 20.75, normal
+18,Nymphadora Tonks,40,Chosica,C,408, 48.96, normal
+19,Molly Weasley,38,Chaclacayo,C,444, 31.08, normal
+20,Arthur Weasley,41,Chaclacayo,C,934, 382.94, normal
+21,Fred Weasley,38,San Isidro,A,687, 419.07, peligro
+22,George Weasley,32,Lince,B,4959, 2082.78, normal
+23,Percy Weasley,32,San Juan de Lurigancho,D,73, 7.3, normal
+24,Charlie Weasley,32,Miraflores,A,1402, 686.98, normal
+25,Bill Weasley,42,Cieneguilla,D,124, 38.44, normal
+26,Dean Thomas,27,Cieneguilla,D,12, 3.36, normal
+27,Seamus Finnigan,48,Chaclacayo,C,2616, 1177.2, normal
+28,Parvati Patil,44,San Isidro,A,4405, 748.85, normal
+29,Lavender Brown,31,Lince,B,2771, 914.43, normal
+30,Rick Sanchez,33,San Isidro,A,6188, 2289.56, normal
+31,Morty Smith,49,Cieneguilla,D,472, 245.44, peligro
+32,Summer Smith,33,Chosica,C,281, 25.29, normal
+33,Beth Smith,26,San Juan de Lurigancho,D,12, 7.8, peligro
+34,Jerry Smith,26,Jesus Maria,B,1491, 253.47, normal
+35,Mr. Poopybutthole,37,San Juan de Lurigancho,D,52, 24.96, normal
+36,Birdperson,26,Chosica,C,718, 78.98, normal
+37,Squanchy,26,Miraflores,A,2927, 819.56, normal
+38,Krombopulos Michael,30,Chaclacayo,C,876, 131.4, normal
+39,Abradolf Lincoler,47,Chosica,C,131, 27.51, normal
+40,Unity,27,Miraflores,A,1399, 349.75, normal
+41,Evil Morty,42,Chaclacayo,C,891, 507.87, peligro
+42,Pickle Rick,21,Chosica,C,214, 74.9, normal
+43,Beth Clone,43,Lince,B,3293, 296.37, normal
+44,Summer Clone,37,Jesus Maria,B,4087, 81.74, normal
+45,Morty Clone,21,Lince,B,470, 169.2, normal
+46,Planetina,39,Chosica,C,607, 303.5, normal
+47,Tammy Guetermann,50,Lince,B,439, 8.78, normal
+48,Jaguar,23,Jesus Maria,B,677, 196.33, normal
+49,Noob-Noob,29,Lince,B,1416, 594.72, normal
+50,Daenerys Targaryen,43,San Juan de Lurigancho,D,11, 4.51, normal
+51,Jon Snow,20,Jesus Maria,B,1190, 190.4, normal
+52,Tyrion Lannister,27,Miraflores,A,8836, 3799.48, normal
+53,Cersei Lannister,28,Cieneguilla,D,16, 1.92, normal
+54,Arya Stark,45,Chosica,C,4615, 969.15, normal
+55,Sansa Stark,25,San Juan de Lurigancho,D,19, 4.75, normal
+56,Bran Stark,27,Cieneguilla,D,27, 19.17, muy peligroso
+57,Jaime Lannister,32,Jesus Maria,B,3347, 368.17, normal
+58,Brienne of Tarth,38,Miraflores,A,3758, 263.06, normal
+59,Samwell Tarly,33,Lince,B,1113, 690.06, peligro
+60,Jorah Mormont,18,San Isidro,A,1565, 704.25, normal
+61,The Hound,30,Cieneguilla,D,67, 23.45, normal
+62,Petyr Baelish,26,San Juan de Lurigancho,D,24, 4.08, normal
+63,Varys,36,Jesus Maria,B,538, 96.84, normal
+64,Littlefinger,42,Miraflores,A,6950, 3753.0, peligro
+65,Olenna Tyrell,30,Lince,B,4511, 1939.73, normal
+66,Margaery Tyrell,44,Miraflores,A,3428, 1131.24, normal
+67,Loras Tyrell,36,San Isidro,A,7004, 2241.28, normal
+68,Tormund Giantsbane,50,Chaclacayo,C,4758, 237.9, normal
+69,Melisandre,32,Lince,B,1655, 479.95, normal
+70,Davos Seaworth,25,Jesus Maria,B,1332, 852.48, peligro
+71,Stannis Baratheon,36,Cieneguilla,D,47, 28.2, peligro
+72,Renly Baratheon,50,San Juan de Lurigancho,D,68, 4.76, normal
+73,Robert Baratheon,42,San Isidro,A,9738, 5355.9, peligro
+74,Catelyn Stark,18,Lince,B,927, 463.5, normal
+75,Robb Stark,24,Lince,B,1325, 821.5, peligro
+76,Theon Greyjoy,24,Jesus Maria,B,896, 268.8, normal
+77,Yara Greyjoy,25,Chosica,C,172, 20.64, normal
+78,Ramsay Bolton,33,Miraflores,A,15709, 1727.99, normal
+79,Roose Bolton,40,Miraflores,A,9266, 1111.92, normal

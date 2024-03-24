@@ -1,7 +1,14 @@
 import sqlite3
+import os
 
 
 def create_db(db):
+
+    dir_name = os.path.dirname(db)
+
+    # Crear el directorio si no existe
+    if dir_name and not os.path.exists(dir_name):
+        os.makedirs(dir_name)
 
     conn = sqlite3.connect(db)
 
